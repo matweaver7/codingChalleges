@@ -12,11 +12,11 @@ void findDateSet(vector<date>&finalDates, date &currDates, int dates[], int curr
 	if (currPos > length) {
 		return;
 	}
-	if(currPos == 0) {
+	if (currPos == 0) {
 		currDates.BUY_DATE = currPos;
 		findDateSet(finalDates, currDates, dates, currPos + 1, length);
 	}
-	else if(dates[currPos] > dates[currDates.BUY_DATE]) {
+	else if (dates[currPos] > dates[currDates.BUY_DATE]) {
 		currDates.SELL_DATE = currPos;
 		findDateSet(finalDates, currDates, dates, currPos + 1, length);
 	} else {
