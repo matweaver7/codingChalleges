@@ -34,7 +34,8 @@ void maximizeProfits(int dates[], int size) {
 	findDateSet(finalDates, currDates, dates, 0, size);
 
 	for (int i = 0; i < finalDates.size(); i++) {
-		cout << "Buy Date: " << finalDates[i].BUY_DATE << " Sell Date: " << finalDates[i].SELL_DATE << endl;
+		printf("Buy on day: %dt Sell on day: %dn", finalDates[i].BUY_DATE,finalDates[i].SELL_DATE); 
+		// cout << "Buy Date: " << finalDates[i].BUY_DATE << " Sell Date: " << finalDates[i].SELL_DATE << endl;
 	}
 }
 
