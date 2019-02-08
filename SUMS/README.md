@@ -10,7 +10,7 @@ Explanation :  Below are triplets with sum less than 2
                (-2, 0, 1) and (-2, 0, 3) 
 
 Input : arr[] = {5, 1, 3, 4, 7}
-        sum = 12.
+sum = 12.
 Output : 4
 Explanation :  Below are triplets with sum less than 12
                (1, 3, 4), (1, 3, 5), (1, 3, 7) and 
