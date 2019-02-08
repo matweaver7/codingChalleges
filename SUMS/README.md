@@ -2,7 +2,7 @@ Given an array of distinct integers and a sum value. Find count of triplets with
 
 Examples:
 
-`Input : arr[] = {-2, 0, 1, 3}
+```Input : arr[] = {-2, 0, 1, 3}
         sum = 2.
 Output : 2
 Explanation :  Below are triplets with sum less than 2
@@ -14,4 +14,4 @@ Output : 4
 Explanation :  Below are triplets with sum less than 12
                (1, 3, 4), (1, 3, 5), (1, 3, 7) and 
                (1, 4, 5)
-`
+```
